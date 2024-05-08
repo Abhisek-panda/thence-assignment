@@ -2,7 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        manrope: ["Manrope", "sans-serif"],
+        covered: ["Covered By Your Grace", "cursive"],
+        switzer: ["Switzer", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
