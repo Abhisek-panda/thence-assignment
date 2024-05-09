@@ -1,4 +1,5 @@
 import { FaCircle } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa";
 
 import Sparkle from "../assets/sparkle.png";
 import Rocket from "../assets/rocket.png";
@@ -44,7 +45,7 @@ const HeroCarousel = () => {
           </div>
         </div>
         <button className="flex flex-row justify-center items-center gap-[15.67px] w-[223.39px] h-[77.22px] pl-[41.7778px] pr-[49.6111px] py-[26.1111px] rounded-[107.056px] hover:bg-[#4E4E4E] bg-[#1c1c1c] font-manrope text-white leading-[24.59px] font-medium capitalize text-[18px] text-center text-nowrap absolute left-[897px] top-[828px]">
-          Explore More
+          Explore More <FaArrowRight className="font-2xl w-[24px] h-[24px]" />
         </button>
       </div>
     </>
@@ -66,9 +67,9 @@ const ClientDetails = () => {
           <img
             src={Sparkle}
             alt="Sparkle Img"
-            className="absolute w-[79.17px] h-[78.48px] flex-none order-2 grow-0 z-[2] left-2.5 top-1.5"
+            className="absolute w-[79.17px] h-[78.48px] flex-none order-2 grow-0 z-[2] left-2.5 top-[-0.30rem]"
           />
-          <p className="w-[121px] h-[77px] not-italic font-medium text-[64px] leading-[120%] tracking-[-0.03em] text-[#1C1C1C] flex-none order-none grow-0 z-0 font-manrope">
+          <p className="w-[121px] h-[77px] not-italic font-medium text-[64px] leading-[120%] tracking-[-0.03em] text-[#1C1C1C] flex-none order-none grow-0 z-0 font-switzer">
             40%
           </p>
           <p className="w-[207.82px] h-[92px] not-italic font-medium text-lg leading-[130%] flex items-center text-[#828282] flex-none order-1 grow-0 z-[1] font-manrope">

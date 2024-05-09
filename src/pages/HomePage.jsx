@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div className=" flex flex-col gap-[20px] border-2 border-solid border-black w-[1440px]">
       <div>
-        <Navbar />
+        <Navbar btnAvailable={true} btnDisabled={false} />
       </div>
       <div>
         <Hero />
