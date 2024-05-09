@@ -83,7 +83,7 @@ const FormPage = () => {
             {isBtnDisabled ? (
               <button
                 type="submit"
-                className="flex flex-row justify-center items-center gap-[15.67px] w-full h-[77.22px] pl-[41.7778px] pr-[49.6111px] py-[26.1111px] rounded-[107.056px] bg-[#C9C9C9]  font-manrope text-white leading-[24.59px] font-medium capitalize text-[18px] text-center text-nowrap"
+                className="flex flex-row justify-center items-center gap-[15.67px] w-full h-[77.22px] pl-[41.7778px] pr-[49.6111px] py-[26.1111px] rounded-[107.056px] bg-[#C9C9C9]  font-manrope text-white leading-[24.59px] font-medium capitalize text-[18px] text-center text-nowrap transition-all"
               >
                 Submit
               </button>
@@ -91,7 +91,7 @@ const FormPage = () => {
               <button
                 type="submit"
                 onClick={() => navigate("/success")}
-                className="flex flex-row justify-center items-center gap-[15.67px] w-full h-[77.22px] pl-[41.7778px] pr-[49.6111px] py-[26.1111px] rounded-[107.056px] hover:bg-[#4E4E4E] bg-[#1c1c1c] font-manrope text-white leading-[24.59px] font-medium capitalize text-[18px] text-center text-nowrap"
+                className="flex flex-row justify-center items-center gap-[15.67px] w-full h-[77.22px] pl-[41.7778px] pr-[49.6111px] py-[26.1111px] rounded-[107.056px] hover:bg-[#4E4E4E] bg-[#1c1c1c] font-manrope text-white leading-[24.59px] font-medium capitalize text-[18px] text-center text-nowrap transition-all"
               >
                 Submit
               </button>

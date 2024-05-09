@@ -25,7 +25,11 @@ const SuccessPage = () => {
       <Navbar btnAvailable={false} btnDisabled={true} />
       <div className="flex flex-col items-center gap-[41px] absolute w-[718px] h-[357px] left-[calc(50%_-_718px/2)] top-[calc(50%_-_357px/2_-_0.5px)] p-0">
         <div>
-          <img className="" src={SuccessGreen} alt="Success Green" />
+          <img
+            className="hover:scale-50 animate-bounce"
+            src={SuccessGreen}
+            alt="Success Green"
+          />
         </div>
         <div className="flex flex-col items-center gap-4 w-[718px] h-[236px] flex-none order-1 self-stretch grow-0 p-0">
           <p className="w-[237px] h-7 not-italic font-normal text-4xl leading-[110%] flex items-center tracking-[-0.02em] text-[#2DA950] flex-none order-none grow-0 font-covered">

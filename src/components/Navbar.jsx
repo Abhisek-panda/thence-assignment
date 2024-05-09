@@ -24,17 +24,21 @@ const Navbar = ({ btnAvailable, btnDisabled }) => {
           <div className="flex gap-[16px]">
             <button
               onClick={() => navigate("/form")}
-              className="hover:bg-[#F1F1F1] flex flex-row justify-center items-center gap-[5.22px] w-[189.56px] h-[77.22px] px-[41.7778px] py-[26.1111px] rounded-[107.056px] border-[1.30556px] border-solid border-[#EAEAEA] font-manrope leading-[24.59px] font-medium capitalize text-[18px] text-center text-nowrap"
+              className="hover:bg-[#F1F1F1] flex flex-row justify-center items-center gap-[5.22px] w-[189.56px] h-[77.22px] px-[41.7778px] py-[26.1111px] rounded-[107.056px] border-[1.30556px] border-solid border-[#EAEAEA] font-manrope leading-[24.59px] font-medium capitalize text-[18px] text-center text-nowrap transition-all"
             >
               Get Projects
             </button>
-            <button className="flex flex-row justify-center items-center gap-[15.67px] w-[223.39px] h-[77.22px] pl-[41.7778px] pr-[49.6111px] py-[26.1111px] rounded-[107.056px] hover:bg-[#4E4E4E] bg-[#1c1c1c] font-manrope text-white leading-[24.59px] font-medium capitalize text-[18px] text-center text-nowrap">
+            <button className="flex flex-row justify-center items-center gap-[15.67px] w-[223.39px] h-[77.22px] pl-[41.7778px] pr-[49.6111px] py-[26.1111px] rounded-[107.056px] hover:bg-[#4E4E4E] bg-[#1c1c1c] font-manrope text-white leading-[24.59px] font-medium capitalize text-[18px] text-center text-nowrap transition-all">
               Onboard Talent
             </button>
           </div>
         ) : !btnDisabled ? (
           <div onClick={() => navigate("/")}>
-            <img src={Close} alt="close-btn" className="cursor-pointer" />
+            <img
+              src={Close}
+              alt="close-btn"
+              className="cursor-pointer transition-all"
+            />
           </div>
         ) : undefined}
       </div>

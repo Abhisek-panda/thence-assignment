@@ -39,13 +39,16 @@ const HeroCarousel = () => {
             capabilities
           </p>
           <div className="flex flex-row items-start gap-3 absolute w-[56.25px] h-[10.75px] p-0 left-[897px] top-[687px]">
-            <FaCircle className="w-[10.75px] h-[10.75px] flex-none order-none grow-0 text-[#2DA950]" />
-            <FaCircle className="w-[10.75px] h-[10.75px] flex-none order-none grow-0 text-[#E4E3E3]" />
-            <FaCircle className="w-[10.75px] h-[10.75px] flex-none order-none grow-0 text-[#E4E3E3]" />
+            <FaCircle className="w-[10.75px] h-[10.75px] flex-none order-none grow-0 text-[#2DA950] hover:w-[9px] hover:h-[9px] transition-all" />
+            <FaCircle className="w-[10.75px] h-[10.75px] flex-none order-none grow-0 text-[#E4E3E3] hover:w-[9px] hover:h-[9px] transition-all" />
+            <FaCircle className="w-[10.75px] h-[10.75px] flex-none order-none grow-0 text-[#E4E3E3] hover:w-[9px] hover:h-[9px] transition-all" />
           </div>
         </div>
-        <button className="flex flex-row justify-center items-center gap-[15.67px] w-[223.39px] h-[77.22px] pl-[41.7778px] pr-[49.6111px] py-[26.1111px] rounded-[107.056px] hover:bg-[#4E4E4E] bg-[#1c1c1c] font-manrope text-white leading-[24.59px] font-medium capitalize text-[18px] text-center text-nowrap absolute left-[897px] top-[828px]">
-          Explore More <FaArrowRight className="font-2xl w-[24px] h-[24px]" />
+        <button className="flex flex-row justify-center items-center gap-[15.67px] w-[223.39px] h-[77.22px] pl-[41.7778px] pr-[49.6111px] py-[26.1111px] rounded-[107.056px] hover:bg-[#4E4E4E] bg-[#1c1c1c] font-manrope text-white leading-[24.59px] font-medium capitalize text-[18px] text-center text-nowrap absolute left-[897px] top-[828px] transition-all">
+          Explore More{" "}
+          <span>
+            <FaArrowRight className="w-[24px] h-[24px]" />
+          </span>
         </button>
       </div>
     </>
@@ -63,7 +66,7 @@ const ClientDetails = () => {
             className=" object-cover w-[506.98px] h-[546.27px] rounded-[50.6978px] object-top"
           />
         </div>
-        <div className="flex flex-col items-start gap-2.5 isolate absolute w-[267.82px] h-[239px] p-[30px] rounded-[27.107px] left-[62px] top-[483px] bg-[#ffffff] shadow-white-shadow">
+        <div className="flex flex-col items-start gap-2.5 isolate absolute w-[267.82px] h-[239px] p-[30px] rounded-[27.107px] left-[62px] top-[483px] bg-[#ffffff] shadow-white-shadow hover:left[60px] hover:top-[475px] transition-all">
           <img
             src={Sparkle}
             alt="Sparkle Img"
@@ -77,7 +80,7 @@ const ClientDetails = () => {
             availability
           </p>
         </div>
-        <div className="flex flex-row items-center gap-3.5 absolute w-[245px] h-[88px] shadow-staff-shadow pl-4 pr-8 py-4 rounded-[111.535px] left-[148.19px] top-[781.71px] bg-[#ffffff]">
+        <div className="flex flex-row items-center gap-3.5 absolute w-[245px] h-[88px] shadow-staff-shadow pl-4 pr-8 py-4 rounded-[111.535px] left-[148.19px] top-[781.71px] bg-[#ffffff]  hover:top-[775px] transition-all">
           <div>
             <img src={Rocket} alt="" />
           </div>
@@ -90,7 +93,7 @@ const ClientDetails = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-start gap-5 absolute w-[290.49px] h-[239px] shadow-green-shadow pl-9 pr-[30px] pt-[34px] pb-10 rounded-[28.3564px] left-[499px] top-[726px] bg-[#002e18] text-white">
+        <div className="flex flex-col items-start gap-5 absolute w-[290.49px] h-[239px] shadow-green-shadow pl-9 pr-[30px] pt-[34px] pb-10 rounded-[28.3564px] left-[499px] top-[726px] bg-[#002e18] text-white hover:top-[720px] hover:left[490px] transition-all">
           <div className="flex items-baseline justify-center gap-2">
             <p className="w-[119px] h-[76px] not-italic font-medium text-[63.3723px] leading-[120%] tracking-[-0.03em] text-white flex-none order-none grow-0 font-switzer">
               $0.5

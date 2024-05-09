@@ -47,7 +47,11 @@ const Faq = () => {
               Ask Questions
             </p>
           </div>
-          <img src={Union} alt="Union Logo" />
+          <img
+            src={Union}
+            alt="Union Logo"
+            className="hover:rotate-3 transition-all"
+          />
         </div>
         <div className="flex flex-col items-start gap-9 relative w-[581px]  p-0 left-48 my-auto font-manrope">
           {faqTitles.map((que, i) => {
@@ -59,9 +63,9 @@ const Faq = () => {
                   </h3>
                   <button onClick={() => setId(i === id ? undefined : i)}>
                     {i === id ? (
-                      <FaMinus className="h-[14px] w-[14px]" />
+                      <FaMinus className="h-[14px] w-[14px] hover:rotate-180 transition-all" />
                     ) : (
-                      <FaPlus className="h-[14px] w-[14px]" />
+                      <FaPlus className="h-[14px] w-[14px] hover:rotate-90 transition-all" />
                     )}
                   </button>
                 </div>
